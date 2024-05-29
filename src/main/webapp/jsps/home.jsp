@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Geetha Technologies Private Ltd. Ph No: +91-9701539912, +91-7032473760 ,+91-9703343428,Bengaluru,Karnataka,India</h1>
-<h1 align="center"> Mithun Technologies- Very bad Training center for DevOps with AWS,Python & AWS Solution Architect & Terraform in Bangalore India.Teaching Real Time scnerios</h1>
+<h1 align="center"> Mithun Technologies- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect & Terraform in Bangalore India.Teaching Real Time scnerios</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
@@ -37,7 +37,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		Mithun Technologies, 
 		Martha Halli, Above ICICI Bank, Beside Meghana Foods,
 		Bangalore,
-		+91-9980923226,+91-9900012028
+		+91-9701539912,+91-9703343428
 		devopstrainingblr@gmail.com
 		<br>
 		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
@@ -48,7 +48,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <hr>
 <p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2022 by <a href="http://mithuntechnologies.com/">Mithun Technologies,Bengaluru</a> </small></p>
+<p align=center><small>Copyrights 2022 by <a href="http://mithuntechnologies.com/">Geetha Technologies,Bengaluru</a> </small></p>
 
 </body>
 </html>
