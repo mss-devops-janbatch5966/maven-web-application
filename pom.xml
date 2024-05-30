@@ -98,14 +98,15 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://16.16.201.177:8081/repository/jenkins-release/
+	      <url>http://51.20.140.90:8081/repository/insta-release/
 </url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://16.16.201.177:8081/repository/jenkins-snapshot/
+	      <url>http://51.20.140.90:8081/repository/insta-snapshot/
+
 </url>
 	    </snapshotRepository>
 	    
