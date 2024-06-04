@@ -1,0 +1,33 @@
+node 
+{
+def mavenHome =tool name :"maven3.9.6"
+//CheckoutStage
+stage('Checkout Code')
+{
+git branch: 'development', credentialsId: 'c0021e91-75fb-4ff1-9ca8-c88d1926457b', url: 'https://github.com/mss-devops-janbatch5966/maven-web-application.git'
+}
+//stage Build
+stage('Build')
+{
+
+sh "$mavenHome/bin/mvn clean package"
+}
+//Generate Sonarqube report
+stage('SonarQubeReport')
+{
+sh "$mavenHome/bin/mvn sonar:sonar"
+}
+//UploadArtifact into nexus
+stage('upload ArtifactInto Nexus')
+{
+sh "$mavenHome/bin/mvn clean deploy"
+}
+//Deploy app into Tomact server
+stage('DeployApp Into Tomact')
+{
+sshagent(['7f6dff02-27f1-460a-87ef-5daa73b7e770'])
+{
+    ssh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.60.32.175:/opt/apache-tomcat-9.0.89/webapps/"
+}
+}
+}
